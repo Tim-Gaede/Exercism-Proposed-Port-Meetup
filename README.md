@@ -44,27 +44,6 @@ throw(ErrorException("Meaningful message indicating the source of the error"))
 This exercise has been tested on Julia 1.2.
 
 
-
-
-
-## Running the tests
-
-To run the tests, run the appropriate command below ([why they are different](https://github.com/pytest-dev/pytest/issues/1629#issue-161422224)):
-
-- Python 2.7: `py.test meetup_test.py`
-- Python 3.4+: `pytest meetup_test.py`
-
-Alternatively, you can tell Python to run the pytest module (allowing the same command to be used regardless of Python version):
-`julia -m pytest meetup_test.py`
-
-### Common `pytest` options
-
-- `-v` : enable verbose output
-- `-x` : stop running tests on first failure
-- `--ff` : run failures from previous test before running other test cases
-
-For other options, see `julia -m pytest -h`
-
 ## Submitting Exercises
 
 Note that, when trying to submit an exercise, make sure the solution is in the `$EXERCISM_WORKSPACE/julia/meetup` directory.
