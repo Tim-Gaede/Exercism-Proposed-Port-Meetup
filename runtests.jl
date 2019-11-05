@@ -93,7 +93,7 @@ println()
 end
 println()
 
-@testset "Saturteenth of october 2013." begin
+@testset "Saturteenth of October 2013." begin
     @test meetup(2013, 10, "teenth", "Saturday") == Date(2013, 10, 19)
 end
 println()
@@ -108,7 +108,7 @@ println()
 end
 println()
 
-@testset "Sunteenth of october 2013." begin
+@testset "Sunteenth of October 2013." begin
     @test meetup(2013, 10, "teenth", "Sunday") == Date(2013, 10, 13)
 end
 println()
@@ -148,17 +148,17 @@ println()
 end
 println()
 
-@testset "First Thursday of october 2013." begin
+@testset "First Thursday of October 2013." begin
     @test meetup(2013, 10, "1st", "Thursday") == Date(2013, 10, 3)
 end
 println()
 
-@testset "First Friday of november 2013." begin
+@testset "First Friday of November 2013." begin
     @test meetup(2013, 11, "1st", "Friday") == Date(2013, 11, 1)
 end
 println()
 
-@testset "First Friday of december 2013." begin
+@testset "First Friday of December 2013." begin
     @test meetup(2013, 12, "1st", "Friday") == Date(2013, 12, 6)
 end
 println()
@@ -218,17 +218,17 @@ println()
 end
 println()
 
-@testset "Second Thursday of october 2013." begin
+@testset "Second Thursday of October 2013." begin
     @test meetup(2013, 10, "2nd", "Thursday") == Date(2013, 10, 10)
 end
 println()
 
-@testset "Second Friday of november 2013." begin
+@testset "Second Friday of November 2013." begin
     @test meetup(2013, 11, "2nd", "Friday") == Date(2013, 11, 8)
 end
 println()
 
-@testset "Second Friday of december 2013." begin
+@testset "Second Friday of December 2013." begin
     @test meetup(2013, 12, "2nd", "Friday") == Date(2013, 12, 13)
 end
 println()
@@ -288,17 +288,17 @@ println()
 end
 println()
 
-@testset "Third Thursday of october 2013." begin
+@testset "Third Thursday of October 2013." begin
     @test meetup(2013, 10, "3rd", "Thursday") == Date(2013, 10, 17)
 end
 println()
 
-@testset "Third Friday of november 2013." begin
+@testset "Third Friday of November 2013." begin
     @test meetup(2013, 11, "3rd", "Friday") == Date(2013, 11, 15)
 end
 println()
 
-@testset "Third Friday of december 2013." begin
+@testset "Third Friday of December 2013." begin
     @test meetup(2013, 12, "3rd", "Friday") == Date(2013, 12, 20)
 end
 println()
@@ -358,17 +358,17 @@ println()
 end
 println()
 
-@testset "Fourth Thursday of october 2013." begin
+@testset "Fourth Thursday of October 2013." begin
     @test meetup(2013, 10, "4th", "Thursday") == Date(2013, 10, 24)
 end
 println()
 
-@testset "Fourth Friday of november 2013." begin
+@testset "Fourth Friday of November 2013." begin
     @test meetup(2013, 11, "4th", "Friday") == Date(2013, 11, 22)
 end
 println()
 
-@testset "Fourth Friday of december 2013." begin
+@testset "Fourth Friday of December 2013." begin
     @test meetup(2013, 12, "4th", "Friday") == Date(2013, 12, 27)
 end
 println()
@@ -428,17 +428,17 @@ println()
 end
 println()
 
-@testset "Last Thursday of october 2013." begin
+@testset "Last Thursday of October 2013." begin
     @test meetup(2013, 10, "last", "Thursday") == Date(2013, 10, 31)
 end
 println()
 
-@testset "Last Friday of november 2013." begin
+@testset "Last Friday of November 2013." begin
     @test meetup(2013, 11, "last", "Friday") == Date(2013, 11, 29)
 end
 println()
 
-@testset "Last Friday of december 2013." begin
+@testset "Last Friday of December 2013." begin
     @test meetup(2013, 12, "last", "Friday") == Date(2013, 12, 27)
 end
 println()
@@ -468,7 +468,7 @@ println()
 end
 println()
 
-@testset "Last Wednesday of december 2014." begin
+@testset "Last Wednesday of December 2014." begin
     @test meetup(2014, 12, "last", "Wednesday") == Date(2014, 12, 31)
 end
 println()
@@ -478,7 +478,7 @@ println()
 end
 println()
 
-@testset "First Friday of december 2012." begin
+@testset "First Friday of December 2012." begin
     @test meetup(2012, 12, "1st", "Friday") == Date(2012, 12, 7)
 end
 println()
